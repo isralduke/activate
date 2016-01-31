@@ -1,0 +1,41 @@
+$rem: 16px;
+
+@mixin textleft {
+	text-align: left;
+}
+@mixin textcenter {
+	text-align: center;
+}
+
+body {
+	padding: 0; margin: 0;
+	font-size: $rem;
+	font-family: 'panton', 'Roboto', Helvetica, sans-serif;
+	font-weight: 300;
+	color: $white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0; margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	font-size: $rem * 5;
+	margin-bottom: $rem;
+}
+h2, h3 {
+	font-size: $rem * 1.5;
+}
+h2 {
+	color: $yellow;
+	margin-bottom: $rem*4;
+}
+h3 {
+	color: $bluelight;
+	text-transform: uppercase;
+	margin: $rem * 2 0 $rem * 3;
+}

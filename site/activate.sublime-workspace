@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fin",
+				"finalsumplace"
+			],
+			[
+				"final",
+				"finalsumplace"
+			],
+			[
+				"in",
+				"innerText"
+			],
+			[
+				"fu",
+				"finalsumplace"
+			],
+			[
+				"h",
+				"hinum"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"add",
+				"addButton"
+			],
+			[
+				"st",
+				"student"
+			],
+			[
+				"re",
+				"resultsArray"
+			],
+			[
+				"reult",
+				"resultsArray"
+			],
+			[
+				"g",
+				"getStudentReport"
+			],
+			[
+				"results",
+				"resultsArray"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"n",
+				"namesearch"
+			],
+			[
+				"name",
+				"namesearch"
+			],
+			[
+				"na",
+				"namesearch"
+			],
+			[
+				"nam",
+				"namearray"
+			],
+			[
+				"stud",
+				"students"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"search",
+				"searchq"
+			],
+			[
+				"doc",
+				"dochtml"
+			],
+			[
+				"cor",
+				"corrects"
+			],
+			[
+				"ques",
+				"quesCorrect"
+			],
+			[
+				"qu",
+				"quesCorrect"
+			],
+			[
+				"score",
+				"scoreRight"
+			],
+			[
+				"q",
+				"quesWrong"
+			],
+			[
+				"sc",
+				"scoreWrong"
+			],
+			[
+				"upp",
+				"upperValue"
+			],
+			[
+				"rand",
+				"randomNum"
+			],
+			[
+				"r",
+				"randomNum"
+			],
+			[
+				"ran",
+				"ranNum"
+			],
+			[
+				"u",
+				"upperValue"
+			],
+			[
+				"low",
+				"lowerValue"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"fiel",
+				"fieldTest"
+			],
+			[
+				"i",
+				"isEmailEmpty"
+			],
+			[
+				"class",
+				"className"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/isral/repos/activate/site"
+	],
+	"file_history":
+	[
+		"/Users/isral/Dropbox/Christmas Letters 2015/Grammy 2.md",
+		"/Users/isral/Dropbox/Christmas Letters 2015/Aunt Cheri.md",
+		"/Users/isral/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/isral/Dropbox/js learne/addJQ/index.html",
+		"/Users/isral/Dropbox/js learne/trap/js/app.js",
+		"/Users/isral/Dropbox/js learne/addJQ/js/app.js",
+		"/Users/isral/Dropbox/js learne/index.html",
+		"/Users/isral/Dropbox/js learne/app.js",
+		"/Users/isral/Desktop/index.html",
+		"/Users/isral/Desktop/app.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/srg.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/quiz.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/object.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/objjects quiz.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/objects students print.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/students.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/students_reports.js",
+		"/Users/isral/Dropbox/js learne/search records.js",
+		"/Users/isral/Desktop/functionGet.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/pseudo code.js",
+		"/Users/isral/Desktop/students.js",
+		"/Users/isral/Desktop/style.css",
+		"/Users/isral/Desktop/report.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/random color 2.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/random number between values.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/lowerValue.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/guess.js",
+		"/Users/isral/Dropbox/HTML ⁄ CSS ⁄ jQuery/JS/randomcolors.js",
+		"/Users/isral/Dropbox/js learne/core.js",
+		"/Users/isral/Dropbox/js learne/quiz.js",
+		"/Users/isral/Dropbox/emptyField.js",
+		"/Users/isral/Dropbox/core.js",
+		"/Users/isral/Desktop/index2.html",
+		"/Users/isral/Dropbox/Resumés/References.txt",
+		"/Users/isral/Dropbox/Resumés/Employment History.txt",
+		"/Users/isral/Dropbox/Silent Sights/ready/Final Pieces/Book 2/text.md",
+		"/Users/isral/Desktop/Silent Sights 2015.txt",
+		"/Users/isral/Library/Caches/Cleanup At Startup/Transmit/18DF0D09-99A1-4473-83F1-6E6795EF7F14/footer.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scented",
+			"innerText",
+			"createNewTaskElement",
+			"item",
+			"student",
+			"report",
+			"passin",
+			"student",
+			"namesearch",
+			"name",
+			"message",
+			"htmlResults.innerHTML",
+			"rank"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "activate.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 369.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

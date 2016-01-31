@@ -1,0 +1,66 @@
+@import "variables";
+@import "colors";
+@import "typography";
+@import "z-index";
+
+// --------------------------------
+
+html, body {
+	height: 100%;
+}
+body {
+	background-color: $blue;
+}
+
+main {
+	padding: $rem;
+	position: relative;
+	
+}
+aside {
+	@include textcenter;
+	img {
+		width: 50%;
+		@include rotate(-15deg);
+	}
+}
+article {
+
+}
+section {
+	&.info {
+		@include textcenter;
+	}
+	&.subscribe {
+		background-color: $red;
+		padding: $rem * 2; margin: $rem * 4 0 0;
+		position: relative;
+	}
+	.formbox {
+		padding-bottom: $rem * 6;
+
+		label {
+			display: block;
+			margin-bottom: $rem;
+		}
+		input, button {
+			display: block;
+			padding: 0; margin: 0;
+			height: 40px;
+			border: none;
+			float: left;
+			@include borderbox;
+		}
+		input {
+			width: 66%;
+			padding-left: $rem;
+			border-radius: 0;
+		}
+		button {
+			width: 33%;
+			background-color: $blue;
+		}
+	}
+}
+
+@import "mediaqs";

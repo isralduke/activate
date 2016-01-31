@@ -1,0 +1,116 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'panton', 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
+  color: #ffffff; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 16px; }
+
+h2, h3 {
+  font-size: 24px; }
+
+h2 {
+  color: #efc913;
+  margin-bottom: 64px; }
+
+h3 {
+  color: #0e79bd;
+  text-transform: uppercase;
+  margin: 32px 0 48px; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #073c5e; }
+
+main {
+  padding: 16px;
+  position: relative; }
+
+aside {
+  text-align: center; }
+  aside img {
+    width: 50%;
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg); }
+
+section.info {
+  text-align: center; }
+section.subscribe {
+  background-color: #dd232b;
+  padding: 32px;
+  margin: 64px 0 0;
+  position: relative; }
+section .formbox {
+  padding-bottom: 96px; }
+  section .formbox label {
+    display: block;
+    margin-bottom: 16px; }
+  section .formbox input, section .formbox button {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    border: none;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  section .formbox input {
+    width: 66%;
+    padding-left: 16px;
+    border-radius: 0; }
+  section .formbox button {
+    width: 33%;
+    background-color: #073c5e; }
+
+@media screen and (min-width: 600px) {
+  main {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center; }
+
+  aside, article {
+    width: 40%; }
+
+  aside {
+    order: 2; }
+    aside img {
+      width: 80%; }
+
+  article {
+    order: 1;
+    width: 400px; } }
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 112px; }
+
+  aside img {
+    width: 80%; } }

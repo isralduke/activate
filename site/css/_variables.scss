@@ -1,0 +1,67 @@
+@mixin flexbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+// makes child items stack vertically
+@mixin column {
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+// makes child items stack vertically, but reversed
+@mixin columnReverse {
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+// make child items position next to each other horz
+@mixin row {
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+// distributing items along main axis
+@mixin justifyContent( $passin ) {
+	-webkit-justify-content: $passin;
+	-ms-justify-content: $passin;
+	justify-content: $passin;
+}
+
+// distributing items along cross axis
+@mixin alignItems( $passin ) {
+	-webkit-align-items: $passin;
+	-ms-align-items: $passin;
+	align-items: $passin;
+}
+
+// distributing items along cross axis
+@mixin alignContent( $passin ) {
+	-webkit-align-content: $passin;
+	-ms-align-content: $passin;
+	align-content: $passin;
+}
+
+@mixin rotate( $deg ) {
+	-webkit-transform: rotate( $deg );
+	-ms-transform: rotate( $deg );
+	transform: rotate( $deg );
+}
+
+@mixin borderbox {
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
