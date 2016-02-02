@@ -309,6 +309,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/assets\/img\/bg-pixels.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11808,
+		"inputAbbreviatedPath": "\/assets\/img\/bg-pixels.png",
+		"outputAbbreviatedPath": "\/assets\/img\/bg-pixels.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -316,6 +327,17 @@
 		"initialSize": 39001,
 		"inputAbbreviatedPath": "\/assets\/img\/bg.png",
 		"outputAbbreviatedPath": "\/assets\/img\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/redpixels.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15409,
+		"inputAbbreviatedPath": "\/assets\/img\/redpixels.png",
+		"outputAbbreviatedPath": "\/assets\/img\/redpixels.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

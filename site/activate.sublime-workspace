@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"background-c",
+				"background-color"
+			],
+			[
 				"fin",
 				"finalsumplace"
 			],
@@ -193,10 +197,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/isral/repos/activate/site"
+		"/Users/isral/repos/activate/site",
+		"/Users/isral/repos/activate/site/assets",
+		"/Users/isral/repos/activate/site/assets/files",
+		"/Users/isral/repos/activate/site/assets/img",
+		"/Users/isral/repos/activate/site/css",
+		"/Users/isral/repos/activate/site/fonts",
+		"/Users/isral/repos/activate/site/js"
 	],
 	"file_history":
 	[
+		"/Users/isral/repos/activate/site/pastes.html",
+		"/Users/isral/repos/activate/site/index.php",
+		"/Users/isral/repos/activate/site/css/_variables.scss",
+		"/Users/isral/repos/activate/site/css/_mediaqs.scss",
+		"/Users/isral/repos/activate/site/humans.txt",
+		"/Users/isral/repos/activate/site/css/normalize.css",
+		"/Users/isral/repos/activate/site/fonts/fonts.md",
+		"/Users/isral/repos/activate/site/js/scripts.js",
+		"/Users/isral/repos/activate/site/assets/files/readme.md",
+		"/Users/isral/repos/activate/site/partials/favicons.html",
+		"/Users/isral/repos/activate/site/css/_typography.scss",
+		"/Users/isral/repos/activate/site/css/_colors.scss",
 		"/Users/isral/Dropbox/Christmas Letters 2015/Grammy 2.md",
 		"/Users/isral/Dropbox/Christmas Letters 2015/Aunt Cheri.md",
 		"/Users/isral/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -252,6 +274,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"p>",
+			"justify-content",
+			"div",
+			"column",
+			"-15deg",
+			"space-between",
+			"p",
+			"img",
+			"@import \"colors\";\n@import \"typography\";",
 			"scented",
 			"innerText",
 			"createNewTaskElement",
@@ -367,8 +398,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 369.0,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -32,10 +32,13 @@ h2, h3 {
 }
 h2 {
 	color: $yellow;
-	margin-bottom: $rem*4;
 }
 h3 {
 	color: $bluelight;
 	text-transform: uppercase;
-	margin: $rem * 2 0 $rem * 3;
+	margin: $rem * 2 0 0;
+}
+p {
+	margin: $rem*4 0;
+	@include textleft;
 }

@@ -1,45 +1,51 @@
 @media screen and ( min-width: 600px ) {
-	main {
-		max-width: 1400px; width: 100%; height: 100%;
-		position: relative;
-		margin: 0 auto;
-		@include flexbox;
-		@include row;
-		@include justifyContent(center);
+	html, body {
+	
 	}
-	aside, article {
-		width: 40%;
+	body {
+		
 	}
-	aside {
-		order: 2;
-		img {
-			width: 80%;
-		}
+	.main, .info, .masthead, .subscribe, .formbox {
+		
 	}
-	article {
-		order: 1;
-		width: 400px;
+	.main, .info {
+		
 	}
-	section {
-
-		&.info {
+	.main {
+		
+	}
+		.info {
 			
 		}
-		&.subscribe {
+			.masthead {
 
+			}
+			.rocket {
+				
+				img {
+					
+				}
+			}
+		.subscribe {
+			
 		}
-		&.formbox {
+			.formbox {
+				
+				
+			}
+				label, input, button {
 
-		}
-	}
-}
-@media screen and ( min-width: 1280px ) {
-	h1 {
-		font-size: $rem * 7;
-	}
-	aside {
-		img {
-			width: 80%;
-		}
-	}
+				}
+				label {
+					display: block;
+				}
+				input, button {
+					float: left;
+				}
+				input {
+					width: 66%;
+				}
+				button {
+					width: 33%;
+				}
 }

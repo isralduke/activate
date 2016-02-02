@@ -13,27 +13,27 @@
 	<?php include('partials/favicons.html'); ?>
 </head>
 <body>
-	<main>
-		<aside>
-			<img src="/assets/img/rocket.svg" />
-		</aside>
-		<article>
-			<section class="info">
+	<main class="main">
+		<section class="info">
+			<section class="masthead">
 				<h3>baton rouge, la</h3>
 				<h1>activate</h1>
 				<h2>a student conference for all things interactive</h2>
 				<p>From websites to wearables, blogs to social networks, mobile apps to ??. Explore the possibilities of interactive design and development. blah blah.</p>
 			</section>
-			<section class="subscribe">
-				<form action="mail.php" class="form" name="form" id="form" method="post">
-					<div class="formbox group">
-						<label>stay updated</label>
-						<input type="email" placeholder="your email">
-						<button>subscribe</button>
-					</div>
-				</form>
+			<section class="rocket">
+				<img src="/assets/img/rocket.svg" />
 			</section>
-		</article>
+		</section>
+		<section class="subscribe">
+			<form action="mail.php" class="form" name="form" id="form" method="post">
+				<div class="formbox group">
+					<label>stay updated</label>
+					<input type="email" placeholder="your email">
+					<button>subscribe</button>
+				</div>
+			</form>
+		</section>
 	</main>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
