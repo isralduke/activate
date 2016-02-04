@@ -7,12 +7,13 @@
 	<title></title>
 	<link rel="author" href="humans.txt" />
 	<meta name="description" content="From websites to wearables, blogs to social networks, mobile apps to ??. Explore the possibilities of interactive design and development. blah blah" />
-	<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+	<!-- <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/3e1612c7-37ae-49f9-b020-c52a55c407de.css"/> -->
 	<link rel="stylesheet" href="/css/normalize.css" />
 	<link rel="stylesheet" href="/css/activate.css" />
 	<?php include('partials/favicons.html'); ?>
 </head>
 <body>
+	<div class="pixels"></div>
 	<main class="main">
 		<section class="info">
 			<section class="masthead">
@@ -35,7 +36,6 @@
 			</form>
 		</section>
 	</main>
-	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script src="/js/scripts.js"></script>
 </body>

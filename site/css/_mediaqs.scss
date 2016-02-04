@@ -1,51 +1,84 @@
 @media screen and ( min-width: 600px ) {
-	html, body {
 	
-	}
-	body {
+}
+@media screen and ( min-width: 768px ) {
+	.info {
+		width: 500px;
+		position: relative;
+		margin: 0 auto;
 		
 	}
-	.main, .info, .masthead, .subscribe, .formbox {
-		
+	.masthead {
+		margin-bottom: $rem * 2;
 	}
-	.main, .info {
-		
+		p {
+			margin: $rem*3 0;
+			@include textleft;
+		}
+
+	.subscribe {
+		background-size: 100%;
+	}
+}
+@media screen and ( min-width: 1024px ) {
+	html, body {
+		height: 100%;
 	}
 	.main {
-		
+		position: relative;
+		margin: 0 auto;
+		max-width: 1000px; width: 90%; height: 100%;
+		@include justifyContent( space-between );
 	}
 		.info {
-			
+			@include row;
+			@include justifyContent( flex-start );
+			@include alignItems( flex-start );
+			width: 100%;
+			padding: 0;
 		}
 			.masthead {
-
-			}
-			.rocket {
+				@include borderbox;
+				margin-bottom: 0;
+				order: 1;
+				min-width: 460px; max-width: 500px; width: 55%;
 				
+			}
+				h1 {
+					font-size: $rem * 8;
+				}
+				p {
+					margin-bottom: 0
+				}
+			.rocket {
+				order: 2;
+				width: 45%; height: 300px;
+				overflow: visible;
+				position: relative;
 				img {
-					
+					width: 90%;
 				}
 			}
 		.subscribe {
-			
+			background: none;
+			width: 100%; height: 200px;
+			padding: 0;
+			position: relative;
 		}
 			.formbox {
-				
-				
+				@include borderbox;
+				background: $red;
+				max-width: 500px; width: 55%; height: 200px;
+				padding: $rem*2 $rem*2 $rem*4;
+				position: relative;
 			}
-				label, input, button {
-
-				}
-				label {
-					display: block;
-				}
-				input, button {
-					float: left;
-				}
-				input {
-					width: 66%;
-				}
-				button {
-					width: 33%;
-				}
+	.pixels {
+		display: block;
+		position: absolute;
+		bottom: 0; left: 0;
+		width: 100%; height: 400px;
+		background-image: url('../assets/img/pixels.svg');
+		background-position: left bottom;
+		background-repeat: repeat-x;
+	}
 }

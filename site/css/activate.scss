@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
 @import "variables";
 @import "colors";
 @import "typography";
@@ -19,7 +21,7 @@ body {
 	@include column;
 }
 .main {
-	
+	position: relative;
 }
 	.info {
 		padding: $rem * 2;
@@ -69,7 +71,9 @@ body {
 				text-transform: uppercase;
 				font-size: $rem * .75;
 			}
-
+.pixels {
+	display: none;
+}
 
 
 

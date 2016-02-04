@@ -8,10 +8,10 @@ $rem: 16px;
 }
 
 body {
+	// font-family:'Panton W01 Regular';
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 	padding: 0; margin: 0;
 	font-size: $rem;
-	font-family: 'panton', 'Roboto', Helvetica, sans-serif;
-	font-weight: 300;
 	color: $white;
 }
 

@@ -1,0 +1,23 @@
+$zbase: 100;
+
+.main {
+	z-index: $zbase;
+}
+	.info {
+		z-index: $zbase + 10;
+	}
+		.masthead {
+			z-index: $zbase + 20;
+		}
+		.rocket {
+			z-index: $zbase +200;
+		}
+	.subscribe {
+		z-index: $zbase +10;
+	}
+		.formbox {
+			z-index: $zbase +200;
+		}
+.pixels {
+	z-index: $zbase + 20;
+}
