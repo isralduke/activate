@@ -1,3 +1,8 @@
+@media screen and ( max-width: 320px ) {
+	.info {
+		padding: 0;
+	}
+}
 @media screen and ( min-width: 600px ) {
 	.info {
 		@include row
@@ -104,7 +109,7 @@
 		background-repeat: repeat-x;
 	}
 }
-@media screen and ( min-width: 1280px ) {
+@media screen and ( min-width: 1400px ) {
 				h1 {
 					margin: $rem*2 0;
 					transition: transform .2s ease-in-out;

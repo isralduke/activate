@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"r",
+				"repeat-x"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
 				"background-c",
 				"background-color"
 			],
@@ -124,10 +172,6 @@
 				"randomNum"
 			],
 			[
-				"r",
-				"randomNum"
-			],
-			[
 				"ran",
 				"ranNum"
 			],
@@ -159,6 +203,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1666,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -167,7 +219,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 398.0,
 		"last_filter": "pac",
 		"selected_items":
 		[
@@ -176,7 +228,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 475.0
+		"width": 455.0
 	},
 	"console":
 	{
@@ -195,24 +247,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/isral/repos/activate/site",
-		"/Users/isral/repos/activate/site/assets",
-		"/Users/isral/repos/activate/site/assets/files",
-		"/Users/isral/repos/activate/site/assets/img",
-		"/Users/isral/repos/activate/site/css",
-		"/Users/isral/repos/activate/site/fonts",
-		"/Users/isral/repos/activate/site/js"
-	],
 	"file_history":
 	[
-		"/Users/isral/repos/activate/site/pastes.html",
-		"/Users/isral/repos/activate/site/index.php",
-		"/Users/isral/repos/activate/site/css/_variables.scss",
 		"/Users/isral/repos/activate/site/css/_mediaqs.scss",
-		"/Users/isral/repos/activate/site/humans.txt",
-		"/Users/isral/repos/activate/site/css/normalize.css",
 		"/Users/isral/repos/activate/site/fonts/fonts.md",
 		"/Users/isral/repos/activate/site/js/scripts.js",
 		"/Users/isral/repos/activate/site/assets/files/readme.md",
@@ -274,12 +311,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"p>",
-			"justify-content",
-			"div",
-			"column",
-			"-15deg",
+			".2",
+			"space-around",
+			"flex-start",
 			"space-between",
+			"align",
+			"2",
+			"-basis",
+			"flex-start",
+			"justify-content",
 			"p",
 			"img",
 			"@import \"colors\";\n@import \"typography\";",
@@ -313,8 +353,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1190,
+								1190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
