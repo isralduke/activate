@@ -12,6 +12,7 @@ html, body {
 }
 body {
 	background-color: $blue;
+	position: relative;
 }
 .main, .info, .masthead, .subscribe, .formbox {
 	
@@ -21,7 +22,7 @@ body {
 	@include column;
 }
 .main {
-	position: relative;
+	
 }
 	.info {
 		padding: $rem * 2;
@@ -34,7 +35,6 @@ body {
 			order: 1;
 			@include textcenter;
 			img {
-				@include rotate(-15deg);
 				width: 150px;
 			}
 		}
@@ -63,6 +63,9 @@ body {
 			}
 			input {
 				width: 66%;
+				color: $black;
+				@include borderbox;
+				padding: $rem*.25 $rem;
 			}
 			button {
 				-webkit-appearance: none;

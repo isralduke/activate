@@ -1,5 +1,24 @@
 @media screen and ( min-width: 600px ) {
-	
+	.info {
+		@include row
+	}
+		.masthead, .rocket {
+			width: 50%;
+		}
+		.masthead {
+			order: 1;
+		}
+		.rocket {
+			order: 2;
+			overflow-x: hidden; 
+			img {
+				width: 75%;
+				margin-left: $rem*2;
+			}
+		}
+	.subscribe {
+		background-size: 100%;
+	}
 }
 @media screen and ( min-width: 768px ) {
 	.info {
@@ -31,7 +50,7 @@
 		@include justifyContent( space-between );
 	}
 		.info {
-			@include row;
+			
 			@include justifyContent( flex-start );
 			@include alignItems( flex-start );
 			width: 100%;
@@ -67,10 +86,13 @@
 		}
 			.formbox {
 				@include borderbox;
-				background: $red;
+				background: fade-out($red, .25);
 				max-width: 500px; width: 55%; height: 200px;
 				padding: $rem*2 $rem*2 $rem*4;
 				position: relative;
+				&:hover, &:active, &:focus {
+					background: fade-out($red, 0);
+				}
 			}
 	.pixels {
 		display: block;
@@ -81,4 +103,27 @@
 		background-position: left bottom;
 		background-repeat: repeat-x;
 	}
+}
+@media screen and ( min-width: 1280px ) {
+				h1 {
+					margin: $rem*2 0;
+					transition: transform .2s ease-in-out;
+					&:hover {
+						transform: rotate(-15deg);
+					}
+				}
+				p {
+					font-size: $rem * 1.25;
+				}
+			.rocket {
+				img {
+					width: 100%;
+				}
+			}
+		.subscribe {
+			height: 400px;
+		}
+			.formbox {
+				height: 400px;
+			}
 }
