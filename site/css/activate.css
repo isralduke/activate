@@ -1,11 +1,35 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 .group:after {
   content: "";
   display: table;
   clear: both; }
 
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+    -moz-transform: translate3d(-1px, 0, 0);
+    -ms-transform: translate3d(-1px, 0, 0);
+    -o-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+    -moz-transform: translate3d(2px, 0, 0);
+    -ms-transform: translate3d(2px, 0, 0);
+    -o-transform: translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+    -moz-transform: translate3d(-4px, 0, 0);
+    -ms-transform: translate3d(-4px, 0, 0);
+    -o-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+    -moz-transform: translate3d(4px, 0, 0);
+    -ms-transform: translate3d(4px, 0, 0);
+    -o-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0); } }
 body {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Panton W01 Regular', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   padding: 0;
   margin: 0;
   font-size: 16px;
@@ -126,15 +150,14 @@ button {
     -ms-flex-direction: row;
     flex-direction: row; }
 
-  .masthead, .rocket {
-    width: 50%; }
-
   .masthead {
-    order: 1; }
+    order: 1;
+    width: 50%; }
 
   .rocket {
     order: 2;
-    overflow-x: hidden; }
+    overflow-x: hidden;
+    width: 50%; }
     .rocket img {
       width: 75%;
       margin-left: 32px; }
@@ -216,12 +239,13 @@ button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: rgba(221, 35, 43, 0.75);
+    background: rgba(221, 35, 43, 0.6);
     max-width: 500px;
     width: 55%;
     height: 200px;
     padding: 32px 32px 64px;
-    position: relative; }
+    position: relative;
+    transition: background-color .2s ease-in-out; }
     .formbox:hover, .formbox:active, .formbox:focus {
       background: #dd232b; }
 

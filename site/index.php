@@ -7,7 +7,8 @@
 	<title></title>
 	<link rel="author" href="humans.txt" />
 	<meta name="description" content="From websites to wearables, blogs to social networks, mobile apps to ??. Explore the possibilities of interactive design and development. blah blah" />
-	<!-- <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/3e1612c7-37ae-49f9-b020-c52a55c407de.css"/> -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/3e1612c7-37ae-49f9-b020-c52a55c407de.css"/>
 	<link rel="stylesheet" href="/css/normalize.css" />
 	<link rel="stylesheet" href="/css/activate.css" />
 	<?php include('partials/favicons.html'); ?>

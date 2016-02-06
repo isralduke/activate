@@ -7,15 +7,14 @@
 	.info {
 		@include row
 	}
-		.masthead, .rocket {
-			width: 50%;
-		}
 		.masthead {
 			order: 1;
+			width: 50%;
 		}
 		.rocket {
 			order: 2;
 			overflow-x: hidden; 
+			width: 50%;
 			img {
 				width: 75%;
 				margin-left: $rem*2;
@@ -30,7 +29,6 @@
 		width: 500px;
 		position: relative;
 		margin: 0 auto;
-		
 	}
 	.masthead {
 		margin-bottom: $rem * 2;
@@ -91,10 +89,11 @@
 		}
 			.formbox {
 				@include borderbox;
-				background: fade-out($red, .25);
+				background: fade-out($red, .4);
 				max-width: 500px; width: 55%; height: 200px;
 				padding: $rem*2 $rem*2 $rem*4;
 				position: relative;
+				transition: background-color .2s ease-in-out;
 				&:hover, &:active, &:focus {
 					background: fade-out($red, 0);
 				}

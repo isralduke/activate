@@ -247,9 +247,15 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/isral/repos/activate/site",
+		"/Users/isral/repos/activate/site/css"
+	],
 	"file_history":
 	[
 		"/Users/isral/repos/activate/site/css/_mediaqs.scss",
+		"/Users/isral/repos/duke-strings/jivka.sublime-project",
 		"/Users/isral/repos/activate/site/fonts/fonts.md",
 		"/Users/isral/repos/activate/site/js/scripts.js",
 		"/Users/isral/repos/activate/site/assets/files/readme.md",
@@ -369,8 +375,8 @@
 						"selection":
 						[
 							[
-								1190,
-								1190
+								0,
+								0
 							]
 						],
 						"settings":
