@@ -31,8 +31,8 @@ Software: SublimeText3, CodeKit, GitHub, Transmit, MAMP Free,
 
 Landing Page Designer: Lynsey Jordan Gwin (@lynseydesign)
 
-SVG Animator: Quinton Jason, Jr ()
+SVG Animator: Quinton Jason, Jr (@quintonjasonjr)
 
-jQuery & Server: Adam Culpepper
+jQuery & Server: Adam Culpepper (@adamculpepper)
 
 Front End Code: isral C. Duke (@israldukedesign)
