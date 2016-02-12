@@ -37,6 +37,13 @@ h3 {
 	text-transform: uppercase;
 	margin: $rem * 2 0 0;
 }
+
+h4{
+	margin-top:50px;
+	@include textleft;
+	font-size: $rem * 1.25;
+	line-height: $rem * 1.75;
+}
 p {
 	margin: $rem*4 0;
 	@include textleft;

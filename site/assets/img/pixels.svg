@@ -12,8 +12,9 @@
 	.st6{opacity:0.25;fill:#D6D6D6;}
 	.st7{opacity:0.25;fill:#C1C1C1;}
 	.st8{fill:#B6B6B6;}
+	#blocks{opacity:0.4;}
 </style>
-<g id="New_Symbol">
+<g id="blocks">
 	<g class="st0">
 		<polygon class="st1" points="778.2,274 778.2,274 778.2,274 778.2,257.3 762.1,257.3 762.1,274 		"/>
 		<polygon class="st1" points="923.4,349.3 923.4,349.3 923.4,332.6 907.2,332.6 907.2,349.3 907.3,349.3 907.3,349.3 		"/>

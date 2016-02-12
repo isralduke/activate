@@ -9,8 +9,13 @@ html, body {
 	
 }
 body {
-	background-color: $blue;
 	position: relative;
+	background:{
+	color: $blue;
+	image: url('/assets/img/pixels.svg');
+	position: left bottom;
+	repeat: repeat-x;
+	}
 }
 .main, .info, .masthead, .subscribe, .formbox {
 	
@@ -32,8 +37,9 @@ body {
 		.rocket {
 			order: 1;
 			@include textcenter;
-			img {
-				width: 150px;
+			.animate{
+				width: 420px;
+				transform: rotate(-15deg);
 			}
 		}
 	.subscribe {
@@ -75,6 +81,7 @@ body {
 .pixels {
 	display: none;
 }
+
 
 
 
