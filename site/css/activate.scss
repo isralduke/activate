@@ -6,83 +6,142 @@
 // --------------------------------
 
 html, body {
-	
+	min-height:100%;
 }
+
 body {
 	position: relative;
 	background:{
-	color: $blue;
-	image: url('/assets/img/pixels.svg');
-	position: left bottom;
-	repeat: repeat-x;
+		color: $blue;
+		image: url('/assets/img/pixels.svg');
+		position: left bottom;
+		repeat: repeat-x;
 	}
 }
-.main, .info, .masthead, .subscribe, .formbox {
-	
+
+p{
+	@media (min-width: $screen-sm-min) {
+		margin: $rem*3 0;
+		@include textleft;
+	}
+	@media (min-width: $screen-lg-min) {
+		font-size: $rem * 1;
+		line-height: $rem * 1.5;
+	}
+
 }
-.main, .info {
+
+h1{
+	@media (min-width: $screen-lg-min) {
+		margin: 0;
+	}
+
+}
+
+.info {
 	@include flexbox;
-	@include column;
+	@include justifyContent( space-between );
+	@media (max-width: $screen-xs-max) {
+		padding:$rem;
+		@include justifyContent(center);
+	}
+	@media (min-width: $screen-md-min) {
+		flex-flow:row nowrap;
+	}
+
 }
-.main {
+
+.main{
 	
-}
-	.info {
-		padding: $rem * 2;
+	@media screen and ( min-width: $screen-md-min ) {
+		position: relative;
+		margin: 0 auto;
+		max-width: 1300px; 
+		width: 90%; 
+		height: 100%;
+		@include justifyContent( space-between );
 	}
-		.masthead {
-			order: 2;
-			@include textcenter;
-		}
-		.rocket {
-			order: 1;
-			@include textcenter;
-			.animate{
-				width: 420px;
-				transform: rotate(-15deg);
-			}
-		}
-	.subscribe {
-		background: $red;
-		padding: $rem*2 $rem*2 $rem*8;
-		background-image: url('../assets/img/redpixels.png');
-		background-size: 250%;
-	}
-		.formbox {
-			
-			
-		}
-			label, input, button {
-				display: block;
-			}
-			label {
-				margin-bottom: $rem * 2;
-			}
-			input, button {
-				float: left;
-				@include borderbox;
-				border-radius: 0;
-				border: none;
-				height: 44px;
-			}
-			input {
-				width: 66%;
-				color: $black;
-				@include borderbox;
-				padding: $rem*.25 $rem;
-			}
-			button {
-				-webkit-appearance: none;
-				width: 33%;
-				background-color: $blue;
-				text-transform: uppercase;
-				font-size: $rem * .75;
-			}
-.pixels {
-	display: none;
 }
 
+.masthead {
+	order: 2;
 
+	@include textcenter;
+	@media (max-width: $screen-xs-max) {
+		@include row;
+	}
+	@media (min-width: $screen-md-min) {
+		order: 1;
+		width: 50%;
+		margin-bottom: $rem * 2;
+	}
+}
 
+.rocket {
+	order: 1;
+	@include textcenter;
+	.animate{
+		transform: rotate(-15deg);
+	}
+	width: 50%;
+	@media (max-width: $screen-xs-max) {
+	}
+	@media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+	}
+	@media (min-width: $screen-md-min) {
+		order:2;
+		width:35%;
+	}
 
-@import "mediaqs";
+	@media (min-width: $screen-lg-min) {
+	}
+	.animate{
+		
+		
+	}
+	#rocket{
+		backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+	}
+}
+
+.subscribe {
+	padding: $rem*2 $rem*2 $rem*8;
+	.formbox {
+		@include borderbox;
+		background: rgba($red, 0.7);
+		padding: $rem*2 $rem*2 $rem*4;
+		position: relative;
+		transition: background-color .2s ease-in-out;
+		&:hover, &:active, &:focus {
+			background: fade-out($red, 0);
+		}
+	}
+	label, input, button {
+		display: block;
+	}
+	label {
+		margin-bottom: $rem * 2;
+	}
+	input, button {
+		float: left;
+		@include borderbox;
+		border-radius: 0;
+		border: none;
+		height: 44px;
+	}
+	input {
+		width: 66%;
+		color: $black;
+		@include borderbox;
+		padding: $rem*.25 $rem;
+	}
+	.button {
+		-webkit-appearance: none;
+		width: 33%;
+		background-color: $blue;
+		text-transform: uppercase;
+		font-size: $rem * .75;
+		color:white;
+	}
+}

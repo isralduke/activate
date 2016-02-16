@@ -29,20 +29,26 @@
 					<p>We’re looking for self-starters who want to ignite their future beyond the classroom. We’ll have speakers and panelists from the growing interactive community in Baton Rouge talking about their careers, answering your questions, and giving you advice on how to get an edge on the future of design and development. Plus, we’ll give you the resources you need to prepare for a professional career in the interactive design industry. Don’t miss this opportunity to get a jump start on your future.</p>
 
 				<section class="subscribe">
-				<form action="mail.php" class="form" name="form" id="form" method="post">
-					<div class="formbox group">
-						<label>stay updated</label>
-						<input type="email" placeholder="your email">
-						<button>subscribe</button>
+
+					<div id="mc_embed_signup">
+					<form action="//activateconf.us12.list-manage.com/subscribe/post?u=1698009cda135b7f9480768e9&amp;id=466d37a6e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class='form'>
+					    <div id="mc_embed_signup_scroll" class="formbox group">
+							<label>stay updated</label>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="your email address" required>
+					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1698009cda135b7f9480768e9_466d37a6e5" tabindex="-1" value=""></div>
+					    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+					    </div>
+					</form>
 					</div>
-				</form>
+
 				</section>
 			</section>
 			<section class="rocket">
-				<object type="image/svg+xml" data="/assets/img/rocket.svg" class="animate">
-					<img src="/assets/img/rocket.png" />
-				</object>
-				
+				<div class="animate">
+					<object type="image/svg+xml" data="/assets/img/rocket.svg" class="animate">
+						<img src="/assets/img/rocket.png" />
+					</object>
+				</div>
 			</section>
 			
 		</section>

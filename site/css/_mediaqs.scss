@@ -1,113 +1,11 @@
-@media screen and ( max-width: 320px ) {
-	.info {
-		padding: 0;
-	}
+@media (max-width: $screen-xs-max) {
 }
-@media screen and ( min-width: 600px ) {
-	.info {
-		@include row
-	}
-		.masthead {
-			order: 1;
-			width: 50%;
-		}
-		.rocket {
-			order: 2;
-			overflow-x: hidden; 
-			width: 50%;
-			img {
-				width: 75%;
-				margin-left: $rem*2;
-			}
-		}
-	.subscribe {
-		background-size: 100%;
-	}
-}
-@media screen and ( min-width: 768px ) {
-	.info {
-		width: 500px;
-		position: relative;
-		margin: 0 auto;
-	}
-	.masthead {
-		margin-bottom: $rem * 2;
-	}
-		p {
-			margin: $rem*3 0;
-			@include textleft;
-		}
 
-	.subscribe {
-		background-size: 100%;
-	}
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 }
-@media screen and ( min-width: 1024px ) {
-	.main {
-		position: relative;
-		margin: 0 auto;
-		max-width: 1300px; width: 90%; height: 100%;
-		@include justifyContent( space-between );
-	}
-		.info {
-			
-			@include justifyContent( flex-start );
-			@include alignItems( flex-start );
-			width: 100%;
-			padding: 0;
-		}
-			.masthead {
-				@include borderbox;
-				margin-bottom: 0;
-				order: 1;
-				width: 50%;
-				
-			}
-				h1 {
-					font-size: $rem * 8;
-				}
-				p {
-					margin-bottom: 0
-				}
-			.rocket {
-				order: 2;
-				width: 45%; height: 300px;
-				overflow: visible;
-				position: relative;
-				img {
-					width: 90%;
-				}
-			}
-		.subscribe {
-			background: none;
-			width: 100%; height: 200px;
-			padding: 0;
-			position: relative;
-			margin-top:40px;
-		}
-			.formbox {
-				@include borderbox;
-				background: fade-out($red, .4);
-				padding: $rem*2 $rem*2 $rem*4;
-				position: relative;
-				transition: background-color .2s ease-in-out;
-				&:hover, &:active, &:focus {
-					background: fade-out($red, 0);
-				}
-			}
 
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 }
-@media screen and ( min-width: 1400px ) {
-				h1 {
-					margin: 0;
-				}
-				p {
-					font-size: $rem * 1;
-					line-height: $rem * 1.5;
-				}
-			.rocket {
-				img {
-					width: 100%;
-				}
-			}
+
+@media (min-width: $screen-lg-min) {
 }

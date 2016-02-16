@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 // function activate(){
   var rocket = '$(svg:hover)',
     tl = new TimelineLite({});
@@ -8,3 +9,4 @@
 
   // return tl;
 // }
+});
