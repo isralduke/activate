@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
   tl
     .to($('#flame'), .1, {scaleY: '1.4', repeat: -1}, 'start')
-    .to($('svg'), .05, { rotation: '+=.7', repeat: -1}, 'start');
+    .to($('svg'), .02, { rotation: '+=.4', repeat: -1}, 'start');
 
   // return tl;
 // }

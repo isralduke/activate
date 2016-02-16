@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/css/activate.css" type="text/css"?>
+<?xml-stylesheet href="../../css/activate.css" type="text/css"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="rocket" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 222.6 363.6" style="enable-background:new 0 0 222.6 363.6;" xml:space="preserve">
-	 	<script xlink:href="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"/>
-	 	<script xlink:href="/js/TimelineLite.min.js"/>
-	 	<script xlink:href="/js/scripts.js"/>
+	
 <style type="text/css">
 	.st0{fill:#DB232A;}
 	.st1{fill:#00AFB4;}
@@ -34,8 +32,7 @@
 	185.5,140.9 185.5,222.5 178.1,222.5 178.1,229.9 178.1,244.8 170.7,244.8 170.7,252.2 170.7,259.6 163.2,259.6 163.2,267 
 	163.2,274.5 163.2,281.9 170.7,281.9 170.7,289.3 178.1,289.3 178.1,304.1 185.5,304.1 185.5,311.6 192.9,311.6 192.9,319 
 	207.8,319 207.8,311.6 215.2,311.6 215.2,296.7 222.6,296.7 222.6,244.8 "/>
-<script  xlink:href="/js/TimelineLite.min.js"></script>
-<script  xlink:href="/js/scripts.js"></script>
+
 <title>clean-rocket</title>
 <polygon class="st4" points="81.6,22.3 81.6,29.8 74.2,29.8 74.2,37.1 89.1,37.1 89.1,22.3 "/>
 <polygon class="st5" points="74.2,244.9 81.6,244.9 81.6,237.4 74.2,237.4 "/>
