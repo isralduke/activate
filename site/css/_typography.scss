@@ -25,6 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: $rem * 5;
 	margin-bottom: $rem;
+	@media (min-width: $screen-md-min) {
+		
+		margin-top:30px;
+	}
+	@media (min-width: $screen-lg-min) {
+		font-size: $rem * 7.5;
+	}
 }
 h2, h3 {
 	font-size: $rem * 1.5;
@@ -43,8 +50,23 @@ h4{
 	@include textleft;
 	font-size: $rem * 1.25;
 	line-height: $rem * 1.75;
+	@media (max-width: $screen-xs-max) {
+		font-size:$rem * 1.15;
+	}
 }
 p {
-	margin: $rem*4 0;
+	margin: $rem*2 0;
 	@include textleft;
+	font-size:$rem * 1;
+	line-height:$rem * 1.5;
+	@media (max-width: $screen-xs-max) {
+
+	}
+	@media (min-width: $screen-sm-min) {
+		margin: $rem*3 0;
+	}
+	@media (min-width: $screen-lg-min) {
+		font-size: $rem * 1;
+		line-height: $rem * 1.5;
+	}
 }

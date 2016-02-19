@@ -19,31 +19,15 @@ body {
 	}
 }
 
-p{
-	@media (min-width: $screen-sm-min) {
-		margin: $rem*3 0;
-		@include textleft;
-	}
-	@media (min-width: $screen-lg-min) {
-		font-size: $rem * 1;
-		line-height: $rem * 1.5;
-	}
-
-}
-
-h1{
-	@media (min-width: $screen-lg-min) {
-		margin: 0;
-	}
-
-}
 
 .info {
 	@include flexbox;
 	@include justifyContent( space-between );
-	@media (max-width: $screen-xs-max) {
+	@include row;
+	@media (max-width: $screen-sm-max) {
 		padding:$rem;
 		@include justifyContent(center);
+		@include column;
 	}
 	@media (min-width: $screen-md-min) {
 		flex-flow:row nowrap;
@@ -68,7 +52,6 @@ h1{
 
 	@include textcenter;
 	@media (max-width: $screen-xs-max) {
-		@include row;
 	}
 	@media (min-width: $screen-md-min) {
 		order: 1;
@@ -82,23 +65,26 @@ h1{
 	@include textcenter;
 	.animate{
 		transform: rotate(-15deg);
+		@media (min-width: $screen-md-min) {
+			width:90%;
+		}
+		@media (min-width: $screen-lg-min) {
+		}
 	}
-	width: 50%;
-	@media (max-width: $screen-xs-max) {
-	}
-	@media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+	@media (max-width: $screen-sm-max) {
+		width:150px;
+		margin:0 auto;
 	}
 	@media (min-width: $screen-md-min) {
 		order:2;
-		width:35%;
+		width:38%;
+		margin-top:100px;
 	}
 
 	@media (min-width: $screen-lg-min) {
+		margin-top:50px;
 	}
-	.animate{
-		
-		
-	}
+
 	#rocket{
 		backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
@@ -106,7 +92,6 @@ h1{
 }
 
 .subscribe {
-	padding: $rem*2 $rem*2 $rem*8;
 	.formbox {
 		@include borderbox;
 		background: rgba($red, 0.7);
@@ -135,6 +120,10 @@ h1{
 		color: $black;
 		@include borderbox;
 		padding: $rem*.25 $rem;
+		@media (max-width:320px) {
+			width:100%;
+		}
+
 	}
 	.button {
 		-webkit-appearance: none;
@@ -143,5 +132,8 @@ h1{
 		text-transform: uppercase;
 		font-size: $rem * .75;
 		color:white;
+		@media (max-width:320px) {
+			width:100%;
+		}
 	}
 }
