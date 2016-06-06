@@ -21,7 +21,8 @@
 	<main class="main">
 		<section class="info">
 			<section class="masthead">
-				<h3>baton rouge, la</h3>
+				<h3>thursday • november 3rd, 2016</h3>
+				<h3>creative bloc • baton rouge, la</h3>
 				<h1>activate</h1>
 				<h2>a student conference for all things interactive</h2>
 				<h4>From websites to mobile apps, wearables to smart devices, social media to virtual reality and beyond. Activate will inspire you to get next-level with your career. Explore the possibilities of UI/UX design, web development, and the exciting future of an interactive world.</h4>
